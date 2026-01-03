@@ -278,6 +278,50 @@ header > p {
     border: 1px solid var(--border);
 }
 
+
+.image-row {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.image-row .portfolio-image {
+    width: 100%;
+    max-width: 300px;   
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
+
+
+
+
+.portfolio-item ul {
+    padding-left: 1.2rem;
+}
+
+/* Form Styles */
+.section-header {
+    text-align: center;
+    margin: 5rem 0 3rem;
+    padding: 2.5rem;
+    background: var(--bg-card);
+
+
+/* Form Styles */
+.section-header {
+    text-align: center;
+    .content-section h2 {
+        font-size: 1.5rem;
+    }
+
+}
+}
+
+
 /* Form Styles */
 .section-header {
     text-align: center;
