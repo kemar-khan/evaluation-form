@@ -49,7 +49,8 @@
             <div class="portfolio-item">
                 <h3>User Stories and Manual Development</h3>
                    <img src="manual.png" alt="QA and Testing" class="portfolio-image">
-                <p>Translated business requirements into detailed user stories for the development team and authored comprehensive user manuals for end-user training.</p>
+                   <li>Translated business requirements into detailed user stories for the development team</li>
+                   <li>Authored comprehensive user manuals for end-user training</li>
             </div>
             <div class="portfolio-item">
                 <h3>Module Improvement Using AI Tools</h3>
@@ -215,6 +216,54 @@
             <button onclick="location.reload()">Submit Another</button>
         </div>
 
+        <section id="dashboard" class="content-section">
+            <h2>Evaluation Dashboard</h2>
+          
+            <!-- Summary Cards -->
+            <div class="stats-grid">
+              <div class="stat-card">
+                <h3>Total Responses</h3>
+                <p id="totalResponses">0</p>
+              </div>
+              <div class="stat-card">
+                <h3>Avg Technical</h3>
+                <p id="avgTechnical">-</p>
+              </div>
+              <div class="stat-card">
+                <h3>Avg Work</h3>
+                <p id="avgWork">-</p>
+              </div>
+              <div class="stat-card">
+                <h3>Avg Communication</h3>
+                <p id="avgCommunication">-</p>
+              </div>
+              <div class="stat-card">
+                <h3>Avg Attitude</h3>
+                <p id="avgAttitude">-</p>
+              </div>
+              <div class="stat-card">
+                <h3>Recommendation</h3>
+                <p>✅ Yes: <span id="recommendYes">-</span></p>
+                <p>❌ No: <span id="recommendNo">-</span></p>
+                <p>🤔 Maybe: <span id="recommendMaybe">-</span></p>
+              </div>
+            </div>
+          
+            <!-- Charts -->
+            <div class="charts-grid">
+              <div class="chart-card">
+                <canvas id="ratingChart"></canvas>
+              </div>
+              <div class="chart-card">
+                <canvas id="recommendationChart"></canvas>
+              </div>
+            </div>
+          </section>
+          
+          
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+          
+
         <!-- Thank You Section -->
         <section class="thank-you-section">
             <div class="thank-you-content">
@@ -242,6 +291,8 @@
                 </div>
             </div>
         </section>
+
+        
         
     </div>
 
